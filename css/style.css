@@ -1,0 +1,152 @@
+.hero-section{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.ready-btn{
+    font-weight: 600;
+    color:orangered;
+}
+.category-section{
+    padding-top: 70px;
+}
+
+.navbar{
+    background: #f0fff0;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.nav-link{
+    padding-right: 2.5rem!important;
+    font-weight: 700;
+}
+.primary-bg{
+    background:  #f0fff0;
+}
+.btn{
+    background: #23a66f;
+    border: 1px solid #23a66f;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+.btn:hover{
+    background: #fff;
+    text-decoration: none;
+    color: #23a66f;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+.text-primary{
+    color: #23a66f!important;
+}
+.text-bold{
+    font-weight: 800;
+}
+.item{
+    background-color: #f0fff0;
+    padding-top: 50px;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+
+}
+
+.item:hover{
+   box-shadow: 5px 5px 10px 5px lightgray;
+   background: #fff;
+
+}
+.item h2{
+    font-size: 25px;
+}
+.item p{
+    font-weight: 600;
+    color: gray;
+}
+
+/* courses */
+.section-head h2{
+    color: #444;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.03);
+    transition: .5s ease-in-out;
+}
+.card p{
+    color: gray;
+    font-weight: 500;
+}
+.card .time, .seats{
+    color: gray;
+    font-weight: 500;
+}
+.testimonial-section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.testimonial-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.client-img{
+    width: 100px;
+}
+
+.client-desc{
+    text-align: justify;
+}
+footer{
+    color: #fff;
+    padding-top: 70px;
+}
+.footer-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+footer ul{
+    list-style: none;
+    width: 100%;
+}
+footer ul li a:hover{
+    color:orangered;
+}
+.title{
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media(max-width:992px){
+    .footer-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .testimonial-content{
+        flex-direction: column;
+    }
+    
+    footer{
+        color: #fff;
+        padding-top: 30px;
+    }
+}
